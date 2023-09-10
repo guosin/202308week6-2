@@ -1,0 +1,50 @@
+.nav-width{
+  min-width: 336px;
+  height: 100vh;
+  background: #F8F9FA;
+}
+
+.img-avatar{
+  width: 40px;
+  height: 40px;
+}
+
+.fz-14{
+  font-size: 14px;
+}
+
+.ml-22{
+  margin-left: 352px;
+}
+// 分頁的css
+.page-link {
+  color: black;
+  border-color:green;
+}
+.page-link .material-icons{
+  color:green;
+}
+.page-link:hover{
+  background: green;
+  color:white;
+}
+.page-link:hover .material-icons {
+  color: white;
+}
+
+
+.container{
+  height: 100vh;
+}
+.focus-line{
+  position: relative;
+}
+
+.focus-line::before {
+  content: ' ';
+  position: absolute;
+  height: 32px;
+  border-left: 4px solid green;
+  left:-32px;
+
+}
